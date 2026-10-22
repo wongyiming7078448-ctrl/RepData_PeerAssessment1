@@ -1,7 +1,9 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-output: html_document
-keep_md: true
+output: 
+  html_document:
+    self_contained: true
+    keep_md: true
 ---
 
 This analysis examines the daily activity patterns using step-count data collected at five-minute intervals. The dataset is processed and analysed to investigate daily activity pattern, missing observations, and differences between weekdays and weekends. 
